@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Basam Videos</title>
+  <title>Basam Video Site</title>
 
   <style>
     body {
@@ -14,35 +14,21 @@
     }
 
     header {
-      text-align: center;
-      padding: 20px;
-      font-size: 24px;
-      font-weight: bold;
       background: black;
+      padding: 15px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
     }
 
     .container {
       padding: 15px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 15px;
-    }
-
-    .video-card {
-      background: #222;
-      border-radius: 10px;
-      overflow: hidden;
     }
 
     video {
       width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    .info {
-      padding: 10px;
-      font-size: 14px;
+      border-radius: 10px;
+      margin-bottom: 20px;
     }
   </style>
 </head>
@@ -53,19 +39,9 @@
 
 <div class="container">
 
-  <div class="video-card">
-    <video controls>
-      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-    </video>
-    <div class="info">Sample Video 1</div>
-  </div>
-
-  <div class="video-card">
-    <video controls>
-      <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
-    </video>
-    <div class="info">Sample Video 2</div>
-  </div>
+  <video controls>
+    <source src="PASTE_YOUR_VIDEO_LINK_HERE.mp4" type="video/mp4">
+  </video>
 
 </div>
 
